@@ -1,0 +1,325 @@
+
+
+
+
+
+/*.write-page {
+  padding-top: 120px; 
+  background-color: #121212;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.write-container {
+  background-color: #1e1e1e;
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.write-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #ffffff;
+  border-bottom: 2px solid #444;
+  padding-bottom: 10px;
+}
+
+.write-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.write-input,
+.write-select,
+.write-textarea {
+  padding: 12px 16px;
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.write-input:focus,
+.write-select:focus,
+.write-textarea:focus {
+  outline: none;
+  border-color: #777;
+}
+
+.write-upload {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.write-upload input {
+  color: #ccc;
+}
+
+.write-submit {
+  padding: 12px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.write-submit:hover {
+  background-color: #fff;
+  color: #121212;
+}
+
+
+@media (max-width: 600px) {
+  .write-container {
+    padding: 20px;
+  }
+
+  .write-title {
+    font-size: 24px;
+  }
+
+  .write-input,
+  .write-select,
+  .write-textarea {
+    font-size: 14px;
+  }
+}*/
+
+
+
+ /*
+.write-modern-page {
+  padding: 40px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.write-modern-container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.write-modern-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.write-modern-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-title,
+.input-categories,
+#file-upload {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.input-categories {
+  height: 120px;
+}
+
+.upload-section label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.quill-container .ql-editor {
+  min-height: 200px;
+}
+
+.publish-btn {
+  padding: 12px 20px;
+  background-color: #0077ff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.publish-btn:hover {
+  background-color: #005dc1;
+}*/
+
+
+
+
+
+
+.write-modern-page {
+  padding: 50px;
+  background: #f2f4f8;
+  min-height: 100vh;
+}
+
+.write-modern-container {
+  max-width: 800px;
+  margin: auto;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.write-modern-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.write-modern-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-title {
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.checkbox-section label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.checkbox-item {
+  background: blue;
+  padding: 8px 14px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.95rem;
+  color: white;
+}
+
+.checkbox-item input {
+  accent-color: #0077ff;
+}
+
+.upload-section {
+  margin-top: 10px;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0077ff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.custom-file-upload:hover {
+  background-color: #005ec2;
+}
+
+.image-preview img {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Quill editor container needs relative positioning */
+
+.quill-container {
+  position: relative;
+}
+
+/* Fix for text visibility in the editor */
+.ql-editor {
+  min-height: 200px;
+  color: #000; /* black text */
+  background: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 12px 15px;
+  outline: none;
+  position: relative;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Placeholder styling */
+.ql-editor::before {
+  content: attr(data-placeholder);
+  color: #aaa;
+  font-style: italic;
+  font-size: 1rem;
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  top: 12px;
+  pointer-events: none;
+}
+
+.ql-editor.ql-blank::before {
+  display: block;
+}
+
+.publish-btn {
+  margin-top: 10px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.publish-btn:hover {
+  background-color: #1e7e34;
+}
+.ql-editor.ql-blank::before {
+  display: block;
+}
+.ql-editor:not(.ql-blank)::before {
+  display: none;
+}

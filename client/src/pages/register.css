@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.register-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-section {
+  background-color: #000;
+  color: white;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-section h1 {
+  font-size: 48px;
+}
+
+.left-section .highlight {
+  color: #f87171;
+}
+
+.right-section {
+  background: linear-gradient(to bottom, #0f172a, #1e293b);
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-box {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 12px;
+  color: white;
+  width: 300px;
+}
+
+.register-box h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.google-btn {
+  display: flex;
+  width: 210px;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.google-btn img {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.divider {
+  text-align: center;
+  color: #ccc;
+  margin: 10px 0;
+}
+
+.register-box input {
+  width: 100%;
+
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background: #334155;
+  color: white;
+  box-sizing: border-box;
+}
+
+
+.register-box button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background: #f87171;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.signin-text {
+  margin-top: 16px;
+  text-align: center;
+}
+

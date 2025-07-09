@@ -1,0 +1,166 @@
+/*body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+.entertainment-wrapper {
+  padding: 3rem 1rem;
+}
+
+.entertainment-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: #fff;
+  position: relative;
+}
+
+.entertainment-split {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* Left: Featured 
+.featured-entertainment {
+  flex: 1.8;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #1a1a1a;
+}
+
+.featured-entertainment img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 450px;
+}
+
+.featured-text {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+  color: #fff;
+  padding: 2rem;
+}
+
+.featured-text h3 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.featured-text p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* Right: Mini stories 
+.mini-stories {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.mini-story {
+  background-color: #141414;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.mini-story:hover {
+  transform: scale(1.02);
+}
+
+.mini-story img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.mini-story h4 {
+  padding: 1rem;
+  font-size: 1rem;
+  color: #eee;
+}
+
+/* Responsive 
+@media (max-width: 768px) {
+  .entertainment-split {
+    flex-direction: column;
+  }
+
+  .featured-entertainment,
+  .mini-stories {
+    width: 100%;
+  }
+
+  .featured-text {
+    padding: 1rem;
+  }
+}
+*/
+.entertainment-section {
+  width: 100%;
+  padding: 40px 5%;
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+.entertainment-title {
+  margin-top: 20px;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.entertainment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.entertainment-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
+
+.entertainment-card:hover {
+  transform: translateY(-6px);
+}
+
+.entertainment-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.entertainment-card-content {
+  padding: 15px;
+}
+
+.entertainment-card-content h3 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #f2f2f2;
+}
+
+.entertainment-card-content h5 {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #bbbbbb;
+}

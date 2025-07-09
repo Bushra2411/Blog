@@ -1,0 +1,103 @@
+.edit-post-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.edit-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.edit-input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+}
+
+.category-section {
+  margin-bottom: 1rem;
+}
+
+.category-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.category-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.category-radio {
+  background: #f3f3f3;
+  padding: 8px 14px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category-radio input {
+  margin-right: 6px;
+}
+
+.upload-section {
+  margin: 1rem 0;
+}
+
+.custom-file-upload {
+  background-color: #efefef;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.image-preview {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 250px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.edit-quill {
+  margin-bottom: 1rem;
+}
+
+.save-btn {
+  background-color: #0070f3;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 14px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+.save-btn:hover {
+  background-color: #005edb;
+}
+
+.loading-text {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+}

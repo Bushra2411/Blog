@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: black;
+}
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #1e293b;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #375a8b;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  margin: 15px 0;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.sidebar-menu li:hover {
+  background-color: #334155;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+  background-color: #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  display: block;
+  border: 4px solid #e2e8f0;
+}
+
+.user-info h3 {
+  text-align: center;
+  margin: 10px 0;
+  color: black;
+}
+
+.user-info p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #475569;
+}
+
+.edit-form label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: white;
+  resize: vertical;
+}
+
+.edit-form textarea {
+  min-height: 80px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0ea5e9;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #0284c7;
+}
+
+.btn.primary {
+  background-color: #10b981;
+}
+
+.btn.primary:hover {
+  background-color: #059669;
+}
+input[type="file"] {
+  margin-bottom: 12px;
+  color: white;
+}
+.edit-form{
+   color: black;
+}
