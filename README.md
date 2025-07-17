@@ -60,11 +60,11 @@ Additionally, the app includes an **Admin Module** where the admin can monitor p
 
 ## 👥 Team Members
 
-| Name                      | Role                |
-|---------------------------|---------------------|
-| Lubna Yesmin              | Developer / UI Design |
-| Fabiha Bushra Chowdhury  | Backend Developer    |
-| Farhana Akter Dina       | Frontend Developer   |
+| Name                      |
+|---------------------------|
+| Lubna Yesmin              |
+| Fabiha Bushra Chowdhury  | 
+| Farhana Akter Dina       | 
 
 ---
 
